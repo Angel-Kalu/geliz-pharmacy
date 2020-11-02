@@ -1,0 +1,142 @@
+.header{
+    background-color: rgb(11, 16, 78);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    margin: none;
+    border: black;
+    margin-top: none;
+}
+body, html{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.tab{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.head{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    width:30%;
+    font-size:20px;
+    color: #fff;
+}
+.logo{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.style{
+    font-size: 45px;
+    font-weight: bold;
+}
+.style:hover{
+    color: grey;
+    font-weight: bold;
+    font-family: Algerian;
+}
+.picture{
+    background-image:   url(../image/depositphotos_81637954-stock-photo-pharmacy-interior.jpg);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* .picture:hover{  
+    background-image: linear-gradient(rgba(11, 14, 63, 0.726), rgba(3, 2, 19, 0.76)),  url(../image/depositphotos_81637954-stock-photo-pharmacy-interior.jpg);
+ } */
+
+/* .picture > .hover{ 
+    display: none !important;
+    transition-duration: 2.5;
+    text-align: center;
+}
+.picture:hover > .hover{
+    display: block !important;
+    color: rgb(11, 16, 78);
+}*/
+
+
+h1{
+    font-size: 25px;
+    font-family: Times New Roman;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1:hover{
+    color: rgb(11, 16, 78);
+    font-weight: bold;
+}
+p{ 
+    font-weight: lighter;
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+ }
+ .footer{
+     position: static;  
+    padding: 10px 10px 0px 10px; 
+    bottom: 0; 
+    width: 100%; 
+    /* Height of the footer*/  
+    height:30px; 
+    background: rgb(11, 16, 78); 
+    margin: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+ }
+ .footer:hover{
+     color: grey;
+    font-weight: bold;
+ }
+ 
+ .fa fa-facebook{
+     text-align: right;
+ }
+ .text{
+     font-size: 30px;
+ }
+ pre{
+     font-size: 20px;
+ }
+ 
+/* .row{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .col{
+     border-radius: 5000px;
+     background-color: rgb(60, 60, 196);
+     border: black;
+     border-width: 100px;
+     box-shadow: black;
+     font-size: 30px;
+ }*/
+
+ 
+ 
