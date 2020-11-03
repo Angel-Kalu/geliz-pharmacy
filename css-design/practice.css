@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(11, 16, 78);
+    background-color: #000;
     color: white;
     display: flex;
     flex-direction: row;
@@ -85,43 +85,125 @@ h1{
     justify-content: center;
 }
 h1:hover{
-    color: rgb(11, 16, 78);
+    color: rgb(19, 25, 121);
     font-weight: bold;
 }
 p{ 
     font-weight: lighter;
     color: gray;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
  }
- .footer{
-     position: static;  
-    padding: 10px 10px 0px 10px; 
-    bottom: 0; 
-    width: 100%; 
-    /* Height of the footer*/  
-    height:30px; 
-    background: rgb(11, 16, 78); 
-    margin: 0px;
-    margin-bottom: 0px;
-    color: #fff;
-    font-size: 30px;
+ #services{
+     background-color: #fff;
+ }
+ .parent1{
+     height: 270px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     align-content: center;
+     justify-content: space-evenly;
+ }
+ .child1{
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    /* background: #fff; */
+    /* font-size: 30px; */
     text-align: center;
+   /* border-radius: 50%; */
+    color:gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    
  }
- .footer:hover{
-     color: grey;
-    font-weight: bold;
+ .logo2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
  }
+
+.parent2{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.logo3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.logo4{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}
+.logo5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.logo3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
  
  .fa fa-facebook{
      text-align: right;
  }
  .text{
-     font-size: 30px;
+     color: #000;
+     font-size: 25px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     font-weight: 400px;
+     
+ }
+ a{
+     color: #000;
+     font-size: 25px;
+     font-weight: 400px;
  }
  pre{
      font-size: 20px;
  }
+ 
+   #contact{
+       background-color: rgb(231, 231, 231);
+       padding-top: 30px;
+       padding-bottom: 30px;
+   }  
+ 
+ .footer{
+    position: fixed;  
+   padding: 10px 10px 0px 10px; 
+   bottom: 0; 
+   width: 100%; 
+   /* Height of the footer*/  
+   height:30px; 
+   background: rgb(0, 0, 0); 
+   margin: 0px;
+   margin-bottom: 0px;
+   color: #fff;
+   font-size: 30px;
+   text-align: center;
+    font-weight: bold;
+    
+}
+.footer:hover{
+    /* color: grey; */
+   font-weight: bold;
+}
  
 /* .row{
      display: flex;
