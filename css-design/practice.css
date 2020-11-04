@@ -6,8 +6,8 @@
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    font-size: 30px;
-    position: fixed;
+    font-size: 20px;
+    position:  absolute;
     width: 100%;
     margin: none;
     border: black;
@@ -21,13 +21,17 @@ body, html{
 .tab{
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: space-evenly;
 }
 .head{
     display: inherit;
     flex-direction: inherit;
     align-items: inherit;
-    justify-content: inherit;
+    justify-content: space-around;
     width:30%;
     font-size:20px;
     color: #fff;
@@ -37,15 +41,25 @@ body, html{
     height: 45px;
     border-radius: 50%;
 }
+.logo:active{
+    transition-duration: 10s;
+    
+}
 .style{
     font-size: 45px;
     font-weight: bold;
+    animation: myAnimation 10s ease;
 }
 .style:hover{
-    color: grey;
+    transition-duration: 10s;
+    /* color: grey; */
     font-weight: bold;
-    font-family: Algerian;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    /* font-family: calibri; */
+    font-size: 55px;
 }
+
 .picture{
     background-image:   url(../image/depositphotos_81637954-stock-photo-pharmacy-interior.jpg);
     width: 100%;
@@ -58,39 +72,34 @@ body, html{
     background-size: cover; 
 }
 
-/* .picture:hover{  
-    background-image: linear-gradient(rgba(11, 14, 63, 0.726), rgba(3, 2, 19, 0.76)),  url(../image/depositphotos_81637954-stock-photo-pharmacy-interior.jpg);
- } */
+ .picture{   
+    background-image: linear-gradient(rgba(192, 192, 192, 0.603), rgba(0, 0, 0, 0.562)),  url(../image/depositphotos_81637954-stock-photo-pharmacy-interior.jpg);
+ } 
 
-/* .picture > .hover{ 
-    display: none !important;
+.picture > .hover{ 
+    display: block !important;
     transition-duration: 2.5;
     text-align: center;
 }
-.picture:hover > .hover{
-    display: block !important;
-    color: rgb(11, 16, 78);
-}*/
-
 
 h1{
-    font-size: 25px;
+    font-size: 30px;
     font-family: Times New Roman;
     font-size: 50px;
     font-weight: bold;
     color: #000;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 h1:hover{
-    color: rgb(19, 25, 121);
+    /* color: rgb(19, 25, 121); */
     font-weight: bold;
 }
 p{ 
     font-weight: lighter;
-    color: gray;
+    color: rgb(46, 46, 46);
     text-align: center;
     font-size: 35px;
  }
@@ -155,6 +164,29 @@ p{
     height: 150px;
     border-radius: 50%;
 }
+.parent3{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.child2{
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    /* background: #fff; */
+    /* font-size: 30px; */
+    text-align: center;
+   /* border-radius: 50%; */
+    color:gray;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: inherit;
+    padding: 8px;
+}
 
  
  .fa fa-facebook{
@@ -179,7 +211,7 @@ p{
  }
  
    #contact{
-       background-color: rgb(231, 231, 231);
+       background-color: rgb(236, 236, 236);
        padding-top: 30px;
        padding-bottom: 30px;
    }  
@@ -219,6 +251,12 @@ p{
      box-shadow: black;
      font-size: 30px;
  }*/
-
- 
+ @keyframes myAnimation{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform:  translate(-100px);
+    }
+}
  
